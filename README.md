@@ -45,3 +45,14 @@ The search stops when all shapes are successfully placed or all possibilities ar
 1. Define your shapes and initialize the matrix.
 2. Call the `solve()` function.
 3. If a solution is found, it will be printed with the shape's position and number of rotations.
+
+```python
+matrix = create_empty_matrix(5, 5)
+result = solve(matrix, shapes)
+
+if result is None:
+    print("No solution found.")
+else:
+    for shape, position, rotation in result:
+        print(f"Shape: {shape}, Position: {position}, Rotation: {rotation}")
+```
