@@ -1,5 +1,13 @@
 # Polyomino Packing Problem Solver
 
+
+<svg viewBox="0 0 70 60" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke: rgb(0, 0, 0); fill-opacity: 0.8; fill: none; transform-box: fill-box; transform-origin: 50% 50%;" d="M 22.08 47.055 C 22.08 47.762 14.658 17.545 14.658 17.545 L 53.357 25.85 L 22.08 47.055 Z"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" cx="14.746" cy="17.81" rx="4.329" ry="4.329"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" cx="53.268" cy="25.85" rx="4.329" ry="4.329"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" cx="22.08" cy="46.172" rx="4.329" ry="4.329"/>
+</svg>
+
 ## Overview
 This program aims to solve a polyomino packing problem, where the goal is to place a set of predefined shapes onto a matrix without any overlaps or shapes going outside the matrix boundaries. The shapes can be rotated as needed. The solution provides the locations and number of clockwise rotations for each shape.
 
